@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:practice2/search1.dart';
 import 'package:practice2/search2.dart';
+import 'package:practice2/search3.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,6 +27,7 @@ class _MyAppState extends State<MyApp> {
           children: [
             Search1(),
             Search2(),
+            Search3(),
           ],
         ),
       ),
